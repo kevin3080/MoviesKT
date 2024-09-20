@@ -1,7 +1,7 @@
-import {HttpAdapter} from '../../../config/adapters/http/http.adapter';
-import {GenericMovieDBResponse} from '../../../infrastructure/interfaces/movie-db.responses';
-import {MovieMapper} from '../../../infrastructure/mappers/movie.mapper';
-import {Movie} from '../../models/movie.model';
+import { HttpAdapter } from '../../../config/adapters/http/http.adapter';
+import { GenericMovieDBResponse } from '../../../infrastructure/interfaces/movie-db.responses';
+import { MovieMapper } from '../../../infrastructure/mappers/movie.mapper';
+import { Movie } from '../../models/movie.model';
 
 export const moviesNowPlayingUseCase = async (
   fetcher: HttpAdapter,
